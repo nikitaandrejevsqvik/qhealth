@@ -1,0 +1,23 @@
+{
+    "name": "qhealth",
+    "version": "0.0.1",
+    "private": false,
+    "license": "Apache-2.0",
+    "author": "2H2S",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nikitaandrejevsqvik/qhealth.git"
+    },
+    "engines": {
+        "node": ">=6.9.4"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@google-cloud/bigquery": "0.9.6",
+        "@google-cloud/storage": "1.2.1",
+        "uuid": "3.1.0"
+    },
+    "devDependencies": {
+        "@google-cloud/nodejs-repo-tools": "1.4.16",
+    }
+}
